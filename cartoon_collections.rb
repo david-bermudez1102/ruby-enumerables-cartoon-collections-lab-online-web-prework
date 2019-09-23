@@ -10,9 +10,8 @@ def long_planeteer_calls(calls_long)
   sorted_array = calls_long.sort_by { |e|  e.length}
   sorted_array.map do |e|
     return true if(e.length > 4)
-    else
-      return false
     end
+    false
   end
 end
 
