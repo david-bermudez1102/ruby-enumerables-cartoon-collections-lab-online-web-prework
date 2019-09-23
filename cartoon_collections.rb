@@ -8,7 +8,7 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long.map do |e|
-    if(e.length > 4)
+    if(e.size > 4)
       return true
     else
       return false
@@ -20,3 +20,4 @@ def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
+s
