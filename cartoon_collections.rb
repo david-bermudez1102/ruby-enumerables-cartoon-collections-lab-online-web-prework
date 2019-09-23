@@ -7,8 +7,12 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls_long)
-  calls_long.map do e|
-
+  calls_long.map do |e|
+    if(e.length > 4)
+      return true
+    else
+      return false
+    end
   end
 end
 
