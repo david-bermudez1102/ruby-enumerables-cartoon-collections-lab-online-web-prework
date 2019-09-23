@@ -14,7 +14,6 @@ def long_planeteer_calls(calls_long)
       break
     else
       return false
-      break
     end
   end
 end
