@@ -18,4 +18,12 @@ end
 
 def find_the_cheese(contains)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  contains.collect do |e|
+    cheese_types.collect do |w|
+      if(e.include?(w))
+        return e
+      end
+    end
+  end
+  return nil
 end
