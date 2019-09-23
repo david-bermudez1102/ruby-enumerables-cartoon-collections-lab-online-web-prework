@@ -7,8 +7,8 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls_long)
-  calls_long.sort_by { |e|  e.length}
-  calls_long.map do |e|
+  sorted_array = calls_long.sort_by { |e|  e.length}
+  sorted_array.map do |e|
     if(e.length > 4)
       return true
     else
