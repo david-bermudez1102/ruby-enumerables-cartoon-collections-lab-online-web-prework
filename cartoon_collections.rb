@@ -11,7 +11,7 @@ def long_planeteer_calls(calls_long)
   sorted_array.map do |e|
       break if(e.length > 4)
       return true
-    
+
     else
       return false
     end
