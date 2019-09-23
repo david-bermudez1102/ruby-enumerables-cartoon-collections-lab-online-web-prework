@@ -8,8 +8,8 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long.map do e|
-    
-  end 
+
+  end
 end
 
 def find_the_cheese# code an argument here
