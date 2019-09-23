@@ -9,7 +9,7 @@ end
 def long_planeteer_calls(calls_long)
   calls_long.sort_by { |e|  e.length}
   calls_long.map do |e|
-    if(e.to_s.length > 4)
+    if(e.length > 4)
       return true
     else
       return false
